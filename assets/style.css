@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    margin: 0px; /*Margem exterma*/
+    padding: 0px; /*Margem interna*/
+    font-family: 'Inter';
+}
+header {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.7) 100%);
+    background-image:url('./images/header_background.png');
+    background-size: cover;
+    height: 560px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#menu{
+    padding-top: 47px;
+    padding-left: 65px;
+}
+
+#header_text{
+    color: white;
+    padding-top: 65px;
+    padding-left: 170px;
+    width: 530px;
+}
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header h4{
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 150%;/*tamanho da linha - deixar o espaçamento*/
+}
+
+/*Certification section*/
+
+#certificationSection{
+    background-color: #EAECE5;
+    justify-content: center;
+}
+#certificationSection ul{
+    height: 150px;
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    
+    margin-top: 0;    
+}
+#certificationSection ul li{
+    display: flex;
+    align-items: center;
+    color: #122235;
+}
+
+#certificationSection ul li span{
+    color: #247BA0;
+    margin-right: 10px;
+}
+
+#videoSection{
+    display: flex;
+    justify-content: center;
+    height: 460px;
+}
+
+#leftSection{
+    margin: 80px 32px 80px 174px;
+}
+
+#rightSection{
+    margin: 80px 172px 100px 32px;
+}
+
+#rightSection h4{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 496px;
+    height: 96px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #247BA0;
+}
+
+#rightSection p{
+    width: 496px;
+    height: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #383838;
+}
+
+#customerReview{
+    background-color: #247BA0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#customerReview h2{
+    margin: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    color: #EAECE5;
+}
+
+#Customer{
+    display: flex;
+    justify-content: center;
+    margin: 60px 100px 80px 100px;
+}
+
+#Customer .Review{
+    display: flex;
+    margin-left: 33px;
+    padding: 32px 40px;
+    align-items: center;
+    width: 532px;
+    height: 172px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    gap: 24px
+}
+
+#Customer .Review p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #383838;
+    width: 332px;
+    height: 108px;
+}
+
+#Customer .Review img{
+    border-radius: 50%;
+}
+
+.Bold{
+    font-style: bold;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    background: #EAECE5;
+    margin-top: 0px;
+    padding-top: 90px;
+}
+
+footer h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #383838;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+footer button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    background: #247BA0;
+    border: none;
+    border-radius: 8px;
+    width: 335px;
+    height: 56px;
+}
+
+
+
+
